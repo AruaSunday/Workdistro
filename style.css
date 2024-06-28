@@ -1,0 +1,93 @@
+*{
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.main_container{
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    font-family: Manrope;
+font-size: 70px;
+font-weight: 800;
+line-height: 106px;
+text-align: center;
+color: #1F2A47;
+}
+h1 span{
+    font-family: Manrope;
+font-size: 70px;
+font-weight: 800;
+line-height: 106px;
+text-align: center;
+color: #31DE9E;
+}
+.image_grid{
+    display: grid;
+    padding: 22px 48px 22px 49px;
+    gap: 57px;
+    border-radius: 10px 0px 0px 0px;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #1F2A47;
+}
+.image_grid img{
+        width: 100%; 
+        height: auto; 
+        border-radius: 10px;
+}
+.submit_button{
+    align-items: center;
+   background: #1F2A47;
+   padding: 20px;
+   margin: 40px 20px;
+   border-radius: 5px;
+}
+.submit_button img{
+    width: 16px;
+    height: 21.33px;
+    top: 0.67px;
+    left: 4px;
+    gap: 0px;
+    opacity: 0px; 
+}
+h2{
+    font-family: Manrope;
+font-size: 50px;
+font-weight: 700;
+line-height: 68.3px;
+text-align: center;
+color: #111727;
+margin-top: 100px;
+}
+h2 span{
+    font-family: Manrope;
+font-size: 50px;
+font-weight: 700;
+line-height: 68.3px;
+text-align: center;
+color: #0DBA67;
+}
+h3{
+    font-family: Manrope;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color: #111727;
+}
+h3 span{
+    font-family: Manrope;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color: #0DBA67;
+}
+.love-workd{
+    background: #1F2A47;
+
+}
