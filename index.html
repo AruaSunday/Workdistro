@@ -4,11 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <title>Workdistro</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
   </head>
+<style>
+    html{
+        font-family: 'Manrope', sans-serif;
+    }
+    body {
+        font-family: 'Manrope', sans-serif;
+    }
+</style>
 <body>
       
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -23,17 +33,26 @@
               <li class="nav-item">
                 <button type="submit" class="s-button"><img src="images\Vector.png" alt=""> JOIN THE WAITLIST</button> 
               <li class="nav-item dropdown">
-                <button type="submit" class="Contact_button"><img src="images\vector1.png" alt="">Contact Us</button>
+                <button type="submit"><img src="images\vector1.png" alt="" class="">Contact Us</button>
             </div> 
           </div>
       </nav>
+      <!-- <div style="display: flex;flex-direction:row;align-items: center;">
+        <div class="navbar-brand" href="#"><img src="images\Favicon.png" alt=""></div>
+        <img src="images\Workdistro-Wd logo 1 copy 4.png" alt="">
+        <Div style="margin-left:auto;">
+        <button type="submit" style="background-color: #1F2A47; color:#FFFFFF;"><img src="images\Vector.png" alt=""> JOIN THE WAITLIST</button>
+        <button type="submit"><img src="images\vector1.png" alt="">Contact Us</button>
+            <Button></Button>
+        </Div>
+      </div> -->
     <section class="main_container">
         <div>
             <div>
                 <p>Be the first to access our innovative platform designed to help you get more done with less stress.</p>
                 <h1>JOIN <span>WORKDISTRO</span>WAITLIST</h1>
                 <p>Workdistro is an efficient and innovative marketplace where you can outsource your tasks to skilled service providers. Whether you're a student, a busy professional, or just need an extra hand, we've got you covered.</p>
-                <button type="submit" class="submit_button"><img src="images\Vector.png" alt=""> JOIN THE WAITLIST</button> 
+                <button type="submit" class="submit_button"><img src="images\Vector.png" alt="" > JOIN THE WAITLIST</button> 
                 <div class="image_grid">
                     <img src="images\Frame 1171275310.png" alt="">
                     <img src="images\Frame 1171275311.png" alt="">
@@ -51,103 +70,124 @@
         <div>
             <h2>Explore Our Innovative <span>Features</span></h2>
             <p>Discover the innovative features that make our platform an essential tool for students, professionals, and busy individuals. From efficient task posting and bidding to seamless connections with skilled service providers, Workdistro empowers you to focus on what truly matters, reducing stress and increasing productivity every step of the way.</p>
-            <aside>
-                <div>
-                    <img src="images\Frame 1171275273.png" alt="">
-                    <h4>Wide Range of Services</h4>
-                    <p>Workdistro offers a comprehensive marketplace with diverse service categories, allowing users to find providers for nearly any task or project, from graphic design to home repairs.</p>
-                </div>
-                <div>
-                    <img src="images\Frame 1171275274.png" alt="">
-                    <h4>Bidding System</h4>
-                    <p>Service providers can bid on posted tasks, offering competitive rates and detailed proposals. This enables users to review a variety of options and select the best fit for their specific needs and budget.</p>
-                </div>
-            </aside>
-            <aside>
-                <div>
-                    <img src="images\Frame 1171275275.png" alt="">
-                    <h4>Secure Payments</h4>
-                    <p>An integrated payment processing system ensures secure transactions, including an escrow service that holds funds until tasks are completed satisfactorily.</p>
-                </div>
-                <div>
-                    <img src="images\Frame 1171275276.png" alt="">
-                    <h4>Rating and Review System</h4>
-                    <p>Users can rate and review service providers, promoting transparency and accountability, and helping others make informed decisions.</p>
-                </div>
-            </aside>
+            <div style="display: flex;flex-direction: column; gap: 30px;">
+<div style="display: flex;  flex: 1;  align-items: center;justify-content:space-between;" class="features">
+    <div  class="feature">
+        <img src="images\Frame 1171275273.png" alt="">
+        <h4>Wide Range of Services</h4>
+        <p>Workdistro offers a comprehensive marketplace with diverse service categories, allowing users to find
+            providers for nearly any task or project, from graphic design to home repairs.</p>
+    </div>
+    <div class="feature">
+        <img src="images\Frame 1171275274.png" alt="">
+        <h4>Bidding System</h4>
+        <p>Service providers can bid on posted tasks, offering competitive rates and detailed proposals. This enables
+            users to review a variety of options and select the best fit for their specific needs and budget.</p>
+    </div>
+</div>
+<div style="display: flex;  flex: 1; align-items: center;justify-content:space-between;" class="features">
+    <div class="feature">
+        <img src="images\Frame 1171275275.png" alt="">
+        <h4>Secure Payments</h4>
+        <p>An integrated payment processing system ensures secure transactions, including an escrow service that holds
+            funds until tasks are completed satisfactorily.</p>
+    </div>
+    <div  class="feature">
+        <img src="images\Frame 1171275276.png" alt="">
+        <h4>Rating and Review System</h4>
+        <p>Users can rate and review service providers, promoting transparency and accountability, and helping others
+            make informed decisions.</p>
+    </div>
+</div>
+            </div>
+          
         </div>
     </section>
         <div class="love-workd">
-            <div>
-            <h2>Why You’ll Love Workdistro</h2>
-            <p>Discover how Workdistro empowers you to outsource tasks effortlessly, connect with skilled service providers, and focus on what truly matters in your life. From competitive bidding to secure payments and reliable reviews, our platform is designed to make your life easier and more productive.</p>
-        </div>
-            <aside>
-                <div>
+           
+            <h2 style="background-color: #1F2A47 ;font-weight: 700;color: white; text-align: center;">Why You’ll Love Workdistro</h2>
+            <p style="background-color: #1F2A47;color: white; text-align: center;">Discover how Workdistro empowers you to outsource tasks effortlessly, connect with skilled service providers, and focus on what truly matters in your life. From competitive bidding to secure payments and reliable reviews, our platform is designed to make your life easier and more productive.</p>
+        
+            <aside style="display: flex; justify-content: space-between; background-color:#1F2A47; " class="features">
+                <div style=" display: flex; flex-direction: column; align-items:center" class="love-item love-arrange">
                     <img src="images\Frame 1171275290 (2).png" alt="">
-                    <h4>Community and Support</h4>
-                    <p>We foster a vibrant community of users and provide exceptional customer support to assist you with any issues. Engage with other users, participate in forums, and enjoy a supportive environment.
+                    <h4 style="text-align: center;color: #111727;">Community and Support</h4>
+                    <p style="text-align: center; color: #4F5665;">We foster a vibrant community of users and provide exceptional customer support to assist you with any issues. Engage with other users, participate in forums, and enjoy a supportive environment.
                     </p>
                 </div>
-                <div>
+                <div style="display: flex; flex-direction: column; align-items: center" class="love-item love-arrange">
                     <img src="images\Frame 1171275290 (1).png" alt="">
-                    <h4>Continuous Improvement</h4>
-                    <p> We are constantly updating and improving our platform based on user feedback. Our commitment to innovation ensures you always have the best tools and features at your disposal.</p>
+                    <h4 style="text-align: center;color: #111727;" >Continuous Improvement</h4>
+                    <p style="text-align: center;color: #4F5665;"> We are constantly updating and improving our platform based on user feedback. Our commitment to innovation ensures you always have the best tools and features at your disposal.</p>
                 </div>
-                <div>
+                <div style="display: flex; flex-direction: column; align-items: center;" class="love-item love-arrange">
                     <img src="images\Frame 1171275290 (2).png" alt="">
-                    <h4>Flexibility and Convenience</h4>
-                    <p>Workdistro offers unparalleled flexibility, allowing you to find and hire service providers on your terms. Whether you need a quick fix or a long-term project partner, we've got you covered.</p>
+                    <h4 style="text-align: center;color: #111727;" >Flexibility and Convenience</h4>
+                    <p style="text-align: center;color: #4F5665;" >Workdistro offers unparalleled flexibility, allowing you to find and hire service providers on your terms. Whether you need a quick fix or a long-term project partner, we've got you covered.</p>
                 </div>
             </aside>
         </div>
-        <div>
+       <div style="display: flex;  padding: 30px; align-items: center;" class="features">
+        <div class="feature">
             <img src="images\Group 48.png" alt="">
         </div>
-        <div>
+        <div  class="feature">
             <h3>Reserve your place! Complete the form below to be one of the first to experience <span>Workdistro</span>.</h3>
-            <p>Thank you for joining the Workdistro waitlist! We’ll keep you updated with our latest news and launch details.</p>
+            <p>Thank you for joining the Workdistro waitlist! We’ll keep you updated with our latest news and launch details.
+            </p>
             <form>
-                <div>
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Your Email</label>
-                <input type="text" id="email" name="email" required>
+                <div style="display: flex; flex-direction: row; margin-bottom: 20px; gap:20%;align-items: center; justify-content: center;" >
+                    <div style="max-width: 40%;">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required style="padding: 2px 10px; border-radius: 10px;">
+                    </div>
+                    <div  style="width: 40%;">
+<label for="name">Your Email</label>
+<input type="text" id="name" name="name" required style="padding: 2px 10px; border-radius: 10px;">
+                    </div>
+                   
+                </div>
+            <div style="display: flex; flex-direction: row; margin-bottom: 20px; gap:20%; align-items: center; justify-content: center;">
+                <div style="max-width:40%;">
+                    <label for="name">Phone Number</label>
+                    <input type="text" id="name" name="name" required style="padding: 2px 10px; border-radius: 10px;">
+                </div>
+                <div style="width:40%;">
+                    <label for="name">Interest</label>
+                    <input type="text" id="name" name="name" placeholder="Optional" required style="padding: 2px 10px; border-radius: 10px;">
+                </div>
+            
             </div>
-            <div>
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" required>
-                <label for="interest">Interest</label>
-                <input type="text" id="interest" name="interest" placeholder="Optional">
-            </div>
-            <button type="submit" class="submit_button"><img src="images\Vector.png" alt=""> JOIN THE WAITLIST</button> 
+                <button type="submit" class="submit_button" style="width: 100%; color: white; font-weight: 600; border-radius: 8px;"><img src="images\Vector(1).png" alt="" > JOIN THE WAITLIST</button>
             </form>
         </div>
-    <footer>
-        <div>
+       </div>
+    <footer style="padding: 20px; display: flex;flex-direction: row;justify-content: space-between;">
+        <div style="width: 30%;">
             <img src="images\Favicon.png" alt="">
            <img src="images\Workdistro-Wd logo 1 copy 4.png" alt="">
-           <p>Workdistro is an efficient and innovative marketplace where you can outsource your tasks to skilled service providers. </p>
+           <p style="text-align: center;">Workdistro is an efficient and innovative marketplace where you can outsource your tasks to skilled service providers. </p>
         </div>
-        <div>
+        <div style="width: 20%;">
             <h4>CONTACT US</h4>
-            <div><a type="email" href="mailto:Info@workdistroapp.com"><i class="fa-solid fa-envelope"></i>Info@workdistroapp.com</a></div>
-            <div><i class="fa-solid fa-phone"></i>+234 818 588 0532</div>
+            <div><a type="email" href="mailto:Info@workdistroapp.com" style="color: #111727;margin-right: 10px" ><i class="fa-solid fa-envelope" style="margin-right: 10px"></i>Info@workdistroapp.com</a></div>
+            <div style="color: #1A1A1A;"><i class="fa-solid fa-phone" style="margin-right: 10px;"></i>+234 818 588 0532</div>
         </div>
-        <div>
+        <div style="width: 20%;">
             <h4>CONNECT</h4>
-            <div><i class="fa-brands fa-linkedin-in"></i>Linkedin</div>
-            <div><i class="fa-solid fa-square-xmark"></i>X</div>
-            <div><i class="fa-brands fa-facebook-f"></i>Facebook</div>
-            <div><i class="fa-brands fa-square-instagram"></i>Instagram</div>
+            <div style="color: #323337;"><i class="fa-brands fa-linkedin-in" style="margin-right: 10px;"></i>Linkedin</div>
+            <div  style="color: #323337;"><i class="fa-solid fa-square-xmark" style="margin-right: 10px;"></i>X</div>
+            <div style="color: #323337;"><i class="fa-brands fa-facebook-f" style="margin-right: 10px;"></i>Facebook</div>
+            <div style="color: #323337;"><i class="fa-brands fa-square-instagram" style="margin-right: 10px;"></i>Instagram</div>
         </div>
-        <div>
-            <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
-            <p>Want to stay up to date with news and updates about our product? Subscribe.</p>
-            <input type="text" id="email" name="email" required placeholder="info@workdistro.com">
-            <button type="submit" class="submit_button"><img src="images\Vector.png" alt=""> Subscribe</button> 
+        <div style="width: 20%;">
+            <h4 style=" font-family: 'Manrope', sans-serif;">SUBSCRIBE TO OUR NEWSLETTER</h4>
+            <p style=" font-family: 'Manrope', sans-serif;">Want to stay up to date with news and updates about our product? Subscribe.</p>
+            <input type="text" id="email" name="email" required placeholder="info@workdistro.com" style="padding: 10px;border-radius: 8px;border-width: 1px;border-color: #CFCFD1;">
+            <button type="submit" class="submit_button"><img src="images\Vector.png" alt="" > Subscribe</button> 
         </div>
-        <div>&copy;Copyright 2024 .Workdistro. All Right Reserved.</div>
+       
     </footer>
+    <div>&copy;Copyright 2024 .Workdistro. All Right Reserved.</div>
 </body>
 </html>
