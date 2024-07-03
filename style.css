@@ -1,6 +1,6 @@
 *{
-    background-color: #f9f9f9;
-    margin: 0;
+    background-color: #ffffff;
+    margin-top: 0px;
     padding: 0;
     font-family: Arial, sans-serif;
 }
@@ -48,6 +48,15 @@ color: #31DE9E;
 color: white;
 font-weight: 700;
 }
+.submit_buttn{
+    align-items: center;
+   background: #1F2A47;
+   padding: 12px 32px 12px 32px;
+   /* margin: 40px 20px; */
+   border-radius: 8px;
+color: white;
+font-weight: 700;
+}
 .submit_button img{
     width: 16px;
     height: 21.33px;
@@ -59,7 +68,7 @@ font-weight: 700;
 }
 h2{
     font-family: Manrope;
-font-size: 50px;
+font-size: 35px;
 font-weight: 700;
 line-height: 68.3px;
 text-align: center;
@@ -99,6 +108,65 @@ color: #0DBA67;
     border-radius: 20px;
     padding: 53px 6px 53px 6px;
 }
+.s-button-wait{
+    background-color: #1F2A47;
+    color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    height: fit-content;
+    width: fit-content;
+    justify-content: right;
+    margin-left: 20px;
+    font-size: 14px;
+    font: Manrope;
+}
+.button-wait{
+    background-color: #ffffff;
+    color: #1F2A47;
+    font: Manrope;
+    justify-content: right;
+    padding: 18px;
+    border-radius: 8px;
+    height: fit-content;
+    width: fit-content;
+    margin-left:20px ;
+
+}
+.reg-form{
+    border-radius: 40px;
+    border-bottom: solid black;
+    border-width: 0.5px;
+    border-top: none;
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+}
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  
+  .navbar ul {
+    display: flex;
+  }
+  
+  .navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+  }
+  
+  .navbar ul a:hover {
+    border-bottom: 2px #fff solid;
+  }
+  
+  .navbar .flex {
+    justify-content: space-between;
+  }
+
 
 @media (max-width: 1000px) {
     .features {
@@ -129,4 +197,14 @@ width: 100%;
         }
 
 }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
 
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
