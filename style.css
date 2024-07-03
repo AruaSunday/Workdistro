@@ -7,9 +7,12 @@
 .main_container{
     text-align: center;
     padding: 20px;
-
-   
 }
+
+.hide{
+display: none;
+}
+
 h1{
     font-family: Manrope;
 font-size: 70px;
@@ -26,6 +29,13 @@ line-height: 106px;
 text-align: center;
 color: #31DE9E;
 }
+
+.worklist-h1{
+   font-size: clamp(20px,5vw,70px);
+ 
+}
+
+
 .image_grid{
     display: grid;
     padding: 22px 48px 22px 49px;
@@ -34,11 +44,16 @@ color: #31DE9E;
     grid-template-columns: repeat(5, 1fr);
     background-color: #1F2A47;
 }
+
 .image_grid img{
+  max-width: 100%;
+  width: 500px;
+}
+/* .image_grid img{
         width: 100%; 
         height: auto; 
         border-radius: 10px;
-}
+} */
 .submit_button{
     align-items: center;
    background: #1F2A47;
@@ -101,6 +116,11 @@ color: #0DBA67;
 }
 
 @media (max-width: 1000px) {
+
+    .image_grid{
+      grid-template-columns: repeat(3,1fr);
+    }
+
     .features {
             flex-direction: column;
             gap: 40px;

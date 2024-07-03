@@ -6,8 +6,8 @@ console.log(waitlisttarget);
 
 let hello = document.querySelector(".hello");
 
-hello.addEventListener("click", () => {
-  hello.style.display = "red";
+waitlistscroll.addEventListener("click", () => {
+  waitlisttarget.scrollIntoView({ behavior: "smooth" });
 });
 
 console.log(hello);
@@ -66,7 +66,7 @@ const submit = async () => {
 
 console.log("ehn");
 waitlistscroll.addEventListener("click", () => {
-  // console.log("no");
+  console.log("no");
 });
 
 document.querySelectorAll(".wait").forEach((item) => {
