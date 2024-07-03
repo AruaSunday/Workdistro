@@ -181,6 +181,9 @@ width: 100%;
                  .lovearrange {
                      width: 100%
                  }
+                 .contactsection{
+                    width: 100%
+                 }
 }
 @media (min-width: 1000px) {
     .features {
@@ -195,6 +198,9 @@ width: 100%;
         .lovearrange{
             width:25%
         }
+                .contactsection{
+                    max-width: 100%
+                }
 
 }
 /* Chrome, Safari, Edge, Opera */

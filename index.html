@@ -18,6 +18,9 @@
     body {
         font-family: 'Manrope', sans-serif;
     }
+    * {
+    font-family: 'Manrope', sans-serif;
+}
 </style>
 <body>
     <div class="navbar">
@@ -41,7 +44,7 @@
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <button type="submit" class="s-button-wait"><img src="images\Vector.png" alt="" > JOIN THE WAITLIST</button> 
+                <button type="submit" class="s-button wait"><img src="images\Vector.png" alt="" > JOIN THE WAITLIST</button> 
               <li class="nav-item dropdown">
                 <button type="submit"><img src="images\vector1.png" alt="" class="">Contact Us</button>
             </div> 
@@ -62,7 +65,7 @@
                 <p>Be the first to access our innovative platform designed to help you get more done with less stress.</p>
                 <h1>JOIN <span>WORKDISTRO </span>WAITLIST</h1>
                 <p>Workdistro is an efficient and innovative marketplace where you can outsource your tasks to skilled service providers. Whether you're a student, a busy professional, or just need an extra hand, we've got you covered.</p>
-                <a href="#waitlist"><button type="submit" class="submit_button wait">Join The Waitlist</button> </a>
+                <button type="submit" class="submit_button wait"><img src="images\Vector.png" alt=""> JOIN THE WAITLIST</button> 
                 <div class="image_grid">
                     <img src="images\Frame 1171275310.png" alt="">
                     <img src="images\Frame 1171275311.png" alt="">
@@ -141,7 +144,7 @@
         <div class="feature">
             <img src="images\Group 48.png" alt="">
         </div>
-        <div  class="feature">
+        <div  class="feature" id="waitlisttarget">
             <h3>Reserve your place! Complete the form below to be one of the first to experience <span>Workdistro</span>.</h3>
             <p>Thank you for joining the Workdistro waitlist! We’ll keep you updated with our latest news and launch details.
             </p>
@@ -159,44 +162,42 @@
                 </div>
             <div style="display: flex; flex-direction: row; margin-bottom: 20px; gap:20%; align-items: center; justify-content: center;">
                 <div style="max-width:40%;">
-                    <!-- <label for="name">Phone Number</label> -->
-                    <input class="reg-form" type="number"id="number"name="number" required placeholder="Phone Number"  style="padding: 2px 10px; border-radius: 0px;">
+                    <label for="name">Phone Number</label>
+                    <input type="number" id="number" name="number" required style="padding: 2px 10px; border-radius: 10px;">
                 </div>
                 <div style="width:40%;">
-                    <!-- <label for="name">Interest</label> -->
-                    <input class="reg-form" type="text" id="" name="name" placeholder=" Interest   Optional" required style="padding: 2px 10px; border-radius: 0px;">
+                    <label for="name">Interest</label>
+                    <input type="text" id="" name="name" placeholder="Optional" required style="padding: 2px 10px; border-radius: 10px;">
                 </div>
             
             </div>
-                <button type="submit" class="submit_button" style="width: 100%; color: white; font-weight: 600; border-radius: 8px;">Join The Waitlist</button>
+                <button type="submit" class="submit_button" style="width: 100%; color: white; font-weight: 600; border-radius: 8px;"><img src="images\Vector(1).png" alt="" > JOIN THE WAITLIST</button>
             </form>
         </div>
        </div>
-    <footer style="padding: 20px; display: flex;flex-direction: row;justify-content: space-between;">
-        <div style="width: 30%;">
+    <footer style="padding: 20px; display: flex;justify-content: space-between;" class="features">
+        <div class="contactsection">
             <img src="images\Favicon.png" alt="">
            <img src="images\Workdistro-Wd logo 1 copy 4.png" alt="">
            <p style="text-align: center;">Workdistro is an efficient and innovative marketplace where you can outsource your tasks to skilled service providers. </p>
         </div>
-        <div id="footer" style="width: 20%;">
+        <div style="width: 20%;">
             <h4>CONTACT US</h4>
             <div><a type="email" href="mailto:Info@workdistroapp.com" style="color: #111727;margin-right: 10px" ><i class="fa-solid fa-envelope" style="margin-right: 10px"></i>Info@workdistroapp.com</a></div>
             <div style="color: #1A1A1A;"><i class="fa-solid fa-phone" style="margin-right: 10px;"></i>+234 818 588 0532</div>
         </div>
-        <div style="width: 20%;">
+        <div class="contactsection">
             <h4>CONNECT</h4>
             <div style="color: #323337;"><i class="fa-brands fa-linkedin-in" style="margin-right: 10px;"></i>Linkedin</div>
             <div  style="color: #323337;"><i class="fa-solid fa-square-xmark" style="margin-right: 10px;"></i>X</div>
             <div style="color: #323337;"><i class="fa-brands fa-facebook-f" style="margin-right: 10px;"></i>Facebook</div>
             <div style="color: #323337;"><i class="fa-brands fa-square-instagram" style="margin-right: 10px;"></i>Instagram</div>
         </div>
-        <div style="width: 20%;">
+        <div class="contactsection">
             <h4 style=" font-family: 'Manrope', sans-serif;">SUBSCRIBE TO OUR NEWSLETTER</h4>
             <p style=" font-family: 'Manrope', sans-serif;">Want to stay up to date with news and updates about our product? Subscribe.</p>
-            <div>
-                <input type="text" id="email" name="email" required placeholder="info@workdistro.com" style="padding: 10px;border-radius: 8px;border-width: 1px;border-color: #CFCFD1; margin-bottom: 1px; width:100%;">
-            <button type="submit" class="submit_buttn" style="margin-top: 3px; width: 100%;">Subscribe</button>
-            </div> 
+            <input type="text" id="email" name="email" required placeholder="info@workdistro.com" style="padding: 10px;border-radius: 8px;border-width: 1px;border-color: #CFCFD1;">
+            <button type="submit" class="submit_button"><img src="images\Vector.png" alt="" > Subscribe</button> 
         </div>
        
     </footer>
