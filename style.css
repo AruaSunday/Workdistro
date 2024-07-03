@@ -52,7 +52,7 @@ font-weight: 700;
     align-items: center;
    background: #1F2A47;
    padding: 12px 32px 12px 32px;
-   /* margin: 40px 20px; */
+   margin-top: 3px;
    border-radius: 8px;
 color: white;
 font-weight: 700;
@@ -155,8 +155,9 @@ color: #0DBA67;
   
   .navbar a {
     color: #fff;
-    padding: 10px;
-    margin: 0 5px;
+    /* padding: 10px; */
+    /* margin: 0 5px; */
+    /* width: 50%; */
   }
   
   .navbar ul a:hover {
