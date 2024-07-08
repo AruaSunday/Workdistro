@@ -222,7 +222,17 @@ width: 100%;
                 .contactsection{
                     max-width: 100%
                 }
-
+footer{
+    display: inline-block;
+    align-items: center;
+}
+}
+@media (min-width:500px) {
+    footer{
+        display: inline-block;
+        align-items: center;
+    }
+    
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
